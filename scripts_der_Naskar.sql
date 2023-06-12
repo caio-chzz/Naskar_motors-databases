@@ -168,7 +168,7 @@ VALUES (34567890100, 'Supervisor de Vendas', 4000, 'carlos@example.com');
 INSERT INTO `Funcionarios` (`Cpf`, `Cargo`, `Salario`, `Email`)
 VALUES (90123456700, 'Vendedor', 3000, 'ana@example.com');
 INSERT INTO `Funcionarios` (`Cpf`, `Cargo`, `Salario`, `Email`)
-VALUES (56789012300, 'Assistente de Vendas', 2500, 'pedro@example.com');
+VALUES (56789012300, 'Assistente de Vendas', 2020, 'pedro@example.com');
 INSERT INTO `Funcionarios` (`Cpf`, `Cargo`, `Salario`, `Email`)
 VALUES (98765432100, 'Gerente de Vendas', 5000, 'maria@example.com');
 INSERT INTO `Funcionarios` (`Cpf`, `Cargo`, `Salario`, `Email`)
@@ -324,10 +324,10 @@ SELECT * FROM Filiais order by CnpjFilial;
 SELECT * FROM Funcionarios order by Cpf;
 --f
 
-SELECT a.Veiculo_name, b.Salario
+SELECT a.ano, b.Salario
 FROM veiculos as A
 INNER JOIN funcionarios as B
-on a.Veiculo_name = b.Salario
+on a.ano = b.Salario
 
 --UPDATES
 UPDATE Vendas
