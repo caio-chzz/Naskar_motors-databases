@@ -17,4 +17,9 @@ Nosso estudo de caso tem como proposta simular um banco de dados para um empresa
 }![img_der_naskar](https://github.com/caio-chzz/Naskar_motors-databases/assets/111304209/8da88efe-5f2a-4215-a608-0bdf1de6d7e4)
 
 
+
+
+
+
+
 a sad repository for a sad studyof case on a sad team o|<
