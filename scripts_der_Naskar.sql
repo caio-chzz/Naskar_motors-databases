@@ -327,7 +327,7 @@ SELECT * FROM Funcionarios order by Cpf;
 SELECT a.Veiculo_name, b.Salario
 FROM veiculos as A
 INNER JOIN funcionarios as B
-                on a.Veiculo_name = b.Salario
+on a.Veiculo_name = b.Salario
 
 --UPDATES
 UPDATE Vendas
