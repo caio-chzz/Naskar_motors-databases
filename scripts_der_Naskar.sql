@@ -327,7 +327,7 @@ SELECT * FROM Funcionarios order by Cpf;
 SELECT a.comissao, b.Salario
 FROM vendas as A
 INNER JOIN funcionarios as B
-on a.comissao = b.Salario
+on a.comissao = b.Salario;
 
 --UPDATES
 UPDATE Vendas
