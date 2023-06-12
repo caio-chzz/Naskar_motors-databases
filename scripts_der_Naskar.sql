@@ -67,7 +67,7 @@ VALUES ('Julia', 9, 450);
 INSERT INTO `Vendas` (`Vendedor_name`, `Num_vendas`, `Comissao`)
 VALUES ('Rafael', 6, 300);
 INSERT INTO `Vendas` (`Vendedor_name`, `Num_vendas`, `Comissao`)
-VALUES ('Mariana', 11, 550);
+VALUES ('Mariana', 11, 5000);
 INSERT INTO `Vendas` (`Vendedor_name`, `Num_vendas`, `Comissao`)
 VALUES ('Paulo', 14, 700);
 INSERT INTO `Vendas` (`Vendedor_name`, `Num_vendas`, `Comissao`)
@@ -79,7 +79,7 @@ VALUES ('Amanda', 7, 350);
 INSERT INTO `Vendas` (`Vendedor_name`, `Num_vendas`, `Comissao`)
 VALUES ('Luiza', 10, 500);
 INSERT INTO `Vendas` (`Vendedor_name`, `Num_vendas`, `Comissao`)
-VALUES ('Carlos', 13, 650);
+VALUES ('Carlos', 13, 3000);
 INSERT INTO `Vendas` (`Vendedor_name`, `Num_vendas`, `Comissao`)
 VALUES ('Isabela', 5, 250);
 INSERT INTO `Vendas` (`Vendedor_name`, `Num_vendas`, `Comissao`)
@@ -95,7 +95,7 @@ VALUES ('Patricia', 8, 400);
 INSERT INTO `Vendas` (`Vendedor_name`, `Num_vendas`, `Comissao`)
 VALUES ('Fábio', 14, 700);
 INSERT INTO `Vendas` (`Vendedor_name`, `Num_vendas`, `Comissao`)
-VALUES ('Vanessa', 4, 200);
+VALUES ('Vanessa', 4, 2020);
 INSERT INTO `Vendas` (`Vendedor_name`, `Num_vendas`, `Comissao`)
 VALUES ('Giovanni', 9, 450);
 
@@ -324,8 +324,8 @@ SELECT * FROM Filiais order by CnpjFilial;
 SELECT * FROM Funcionarios order by Cpf;
 --f
 
-SELECT a.ano, b.Salario
-FROM veiculos as A
+SELECT a.comissao, b.Salario
+FROM vendas as A
 INNER JOIN funcionarios as B
 on a.ano = b.Salario
 
