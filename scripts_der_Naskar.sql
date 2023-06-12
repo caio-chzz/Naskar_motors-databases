@@ -324,6 +324,11 @@ SELECT * FROM Filiais order by CnpjFilial;
 SELECT * FROM Funcionarios order by Cpf;
 --f
 
+SELECT a.Veiculo_name, b.Salario
+FROM veiculos as A
+INNER JOIN funcionarios as B
+                on a.Veiculo_name = b.Salario
+
 --UPDATES
 UPDATE Vendas
 SET Num_vendas = 100
