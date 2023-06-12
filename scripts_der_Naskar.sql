@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS `Filiais` (
   PRIMARY KEY (`CnpjFilial`)
 );
 
---INSERTS
+
 INSERT INTO `Vendas` (`Vendedor_name`, `Num_vendas`, `Comissao`)
 VALUES ('João', 10, 500);
 INSERT INTO `Vendas` (`Vendedor_name`, `Num_vendas`, `Comissao`)
@@ -99,7 +99,7 @@ VALUES ('Vanessa', 4, 200);
 INSERT INTO `Vendas` (`Vendedor_name`, `Num_vendas`, `Comissao`)
 VALUES ('Giovanni', 9, 450);
 
---vendas
+
 
 INSERT INTO `Veiculos` (`Veiculo_name`, `Modelo`, `Versão`, `Ano`, `Cor`, `Motor`)
 VALUES ('Gol', 'VW', 'Gol G6', 2021, 'Prata', '1.0');
@@ -151,7 +151,7 @@ INSERT INTO `Veiculos` (`Veiculo_name`, `Modelo`, `Versão`, `Ano`, `Cor`, `Moto
 VALUES ('Mercedes-Benz S-Class', 'Mercedes-Benz', 'S 560', 2021, 'Prata', '4.0 V8 Turbo');
 INSERT INTO `Veiculos` (`Veiculo_name`, `Modelo`, `Versão`, `Ano`, `Cor`, `Motor`)
 VALUES ('Audi A8', 'Audi', 'A8 L', 2022, 'Preto', '4.0 V8 Turbo');
--- veiculos
+
 
 INSERT INTO `Funcionarios` (`Cpf`, `Cargo`, `Salario`, `Email`)
 VALUES (45678901200, 'Gerente de Vendas', 5000, 'rafael@example.com');
@@ -203,7 +203,7 @@ INSERT INTO `Funcionarios` (`Cpf`, `Cargo`, `Salario`, `Email`)
 VALUES (67890123403, 'Vendedor', 3000, 'marcos@example.com');
 INSERT INTO `Funcionarios` (`Cpf`, `Cargo`, `Salario`, `Email`)
 VALUES (01234567803, 'Assistente de Vendas', 2500, 'fernando@example.com');
---funcionarios
+
 
 INSERT INTO `Pecas` (`Material`, `Tipo`)
 VALUES ('Aço', 'Volante');
@@ -255,7 +255,7 @@ INSERT INTO `Pecas` (`Material`, `Tipo`)
 VALUES ('Fibra de Carbono', 'Spoiler Traseiro');
 INSERT INTO `Pecas` (`Material`, `Tipo`)
 VALUES ('Couro', 'Volante');
---pecas
+
 
 INSERT INTO `Filiais` (`CnpjFilial`, `Pais`, `EnderecoFilial`)
 VALUES (90123456789012, 'Espanha', 'Calle Principal, Madrid');
@@ -307,7 +307,7 @@ INSERT INTO `Filiais` (`CnpjFilial`, `Pais`, `EnderecoFilial`)
 VALUES (54328048767890, 'Brasil', 'Rua Principal, 321, Navegas');
 INSERT INTO `Filiais` (`CnpjFilial`, `Pais`, `EnderecoFilial`)
 VALUES (54321098787830, 'Brasil', 'Rua Principal, 321, Joinvaile');
---filiais
+
  
 
 -- SELECTS
